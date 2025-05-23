@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 // =========================
-// Ejercicio 4 – Promedio de Arreglo Bidimensional
-// Integrantes: [Agregá los nombres del equipo aquí]
+// Ejercicio 4 â€“ Promedio de Arreglo Bidimensional
+// Integrantes: [RUIZ,E.; PIÃ‘A, K.;  GALLARDO G.]
 // =========================
 
-// Función para cargar la matriz 3x3
+// FunciÃ³n para cargar la matriz 3x3
 void cargarMatriz(int matriz[3][3]) {
 	printf("Ingrese los elementos de la matriz 3x3:\n");
 	for (int i = 0; i < 3; i++) {
@@ -16,7 +16,7 @@ void cargarMatriz(int matriz[3][3]) {
 	}
 }
 
-// Función para calcular el promedio de una fila
+// FunciÃ³n para calcular el promedio de una fila
 float calcularPromedioFila(int fila[], int columnas) {
 	int suma = 0;
 	for (int i = 0; i < columnas; i++) {
@@ -25,7 +25,7 @@ float calcularPromedioFila(int fila[], int columnas) {
 	return (float)suma / columnas;
 }
 
-// Función para calcular el promedio general de la matriz
+// FunciÃ³n para calcular el promedio general de la matriz
 float calcularPromedioGeneral(int matriz[3][3]) {
 	int sumaTotal = 0;
 	for (int i = 0; i < 3; i++) {
